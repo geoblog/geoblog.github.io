@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>地理博客</title>
+  <subtitle>世界那么大，等你去探索</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://geoblog.github.io/"/>
+  <updated>2016-09-07T05:01:38.415Z</updated>
+  <id>https://geoblog.github.io/</id>
+  
+  <author>
+    <name>曹老师</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>this is a demo</title>
+    <link href="https://geoblog.github.io/2016/09/07/this-is-a-demo/"/>
+    <id>https://geoblog.github.io/2016/09/07/this-is-a-demo/</id>
+    <published>2016-09-07T05:00:29.000Z</published>
+    <updated>2016-09-07T05:01:38.415Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="重新布署地理博客"><a href="#重新布署地理博客" class="headerlink" title="重新布署地理博客"></a>重新布署地理博客</h1><ul>
+<li>用新邮箱注册github用户名XX，验证邮箱，创建xx.github.io仓库。</li>
+<li>进github for windows，git shell ，安装hexo，下载安装next，修改配置文件的deploy为git，github仓库名，master。</li>
+<li>npm install hexo-deployer-git –save 为HEXO安装git。</li>
+<li>添加百度统计、多说评论等第三方库。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;重新布署地理博客&quot;&gt;&lt;a href=&quot;#重新布署地理博客&quot; class=&quot;headerlink&quot; title=&quot;重新布署地理博客&quot;&gt;&lt;/a&gt;重新布署地理博客&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;用新邮箱注册github用户名XX，验证邮箱，创建xx.github.io仓库。
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://geoblog.github.io/2016/09/07/hello-world/"/>
+    <id>https://geoblog.github.io/2016/09/07/hello-world/</id>
+    <published>2016-09-07T03:44:19.856Z</published>
+    <updated>2016-09-07T01:51:03.225Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="http://music.163.com/outchain/player?type=0&id=459115793&auto=0&height=430"></iframe>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>利用github and Hexo建立个人blog</title>
+    <link href="https://geoblog.github.io/2016/08/27/my-new-post/"/>
+    <id>https://geoblog.github.io/2016/08/27/my-new-post/</id>
+    <published>2016-08-27T08:23:23.000Z</published>
+    <updated>2016-09-07T02:02:27.838Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo 是一个快速、简单且功能强大的 Node.js 博客框架，可以方便的生成静态网页托管在github和Heroku上。</p>
+<p>GitHub Pages 可以被认为是用户编写的、托管在github上的静态网页。由于它的空间免费稳定， 可以用于介绍托管在github上的Project或者搭建网站。</p>
+<p>gp 生成的网站的默认域名是 username.github.io 或者 username.github.io/project-name ，但gp是支持自定义域名的： Custom Domain Name 。购买域名之后，可以和默认的二级域名进行绑定<br><a id="more"></a></p>
+<hr>
+<ul>
+<li>由于 Hexo 是基于 Node ，安装前要先安装 Node.js。上官网下载安装。</li>
+<li>注册github，建立username.github.io的项目用于管理blog相关资料。</li>
+<li><p>下载安装github for windows,用git shell安装Hexo 有些教程要先CD到根目录，这得看你的github for windows的安装位置，直接启动git shell安装就行了。进git shell测试连github                </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ssh -T git@github.com</div><div class="line">npm install  hexo-cli -g</div></pre></td></tr></table></figure>
+</li>
+<li><p>cd到Hexo项目文件夹，在github文件夹下面。运行</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo init Hexo</div><div class="line">npm install</div><div class="line">hexo generate</div><div class="line">hexo server</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>这时端口4000被打开了，我们能过浏览器打开地址， <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 或者 <a href="http://0.0.0.0:4000" target="_blank" rel="external">http://0.0.0.0:4000</a> 。<br>在Hexo的 _config.yml 中修改deploy </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"># Deployment</div><div class="line">## Docs: http://hexo.io/docs/deployment.html</div><div class="line">deploy:</div><div class="line">type: git</div><div class="line">repo: https://github.com/dwqs/username.github.io.git</div><div class="line">branch: master</div><div class="line">然后还要安装 hexo-deployer-git ：</div><div class="line"></div><div class="line">npm install hexo-deployer-git -S</div><div class="line">最后利用hexo指令发布到github：</div><div class="line"></div><div class="line">hexo d</div><div class="line">//same as</div><div class="line">hexo deploy</div><div class="line"></div><div class="line">Hexo常用命令：</div><div class="line">使用git shell ，cd Hexo项目文件夹</div><div class="line">hexo new &quot;article title&quot;</div><div class="line">hexo s == hexo server</div><div class="line">hexo n == hexo new</div><div class="line">hexo clean</div><div class="line">hexo g == hexo generate</div><div class="line"></div><div class="line">hexo d == hexo deploy</div></pre></td></tr></table></figure>
+<ul>
+<li>使用hexo n “filename”建立新blog，用Haroopad编辑mark dwon模式的md文件，保存后刷新可看到最新的blog<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="http://music.163.com/outchain/player?type=0&id=459115793&auto=0&height=430"></iframe></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Hexo 是一个快速、简单且功能强大的 Node.js 博客框架，可以方便的生成静态网页托管在github和Heroku上。&lt;/p&gt;
+&lt;p&gt;GitHub Pages 可以被认为是用户编写的、托管在github上的静态网页。由于它的空间免费稳定， 可以用于介绍托管在github上的Project或者搭建网站。&lt;/p&gt;
+&lt;p&gt;gp 生成的网站的默认域名是 username.github.io 或者 username.github.io/project-name ，但gp是支持自定义域名的： Custom Domain Name 。购买域名之后，可以和默认的二级域名进行绑定&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://geoblog.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
