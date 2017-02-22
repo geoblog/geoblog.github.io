@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://geoblog.github.io/"/>
-  <updated>2016-09-07T05:01:38.415Z</updated>
+  <updated>2017-02-22T00:37:26.790Z</updated>
   <id>https://geoblog.github.io/</id>
   
   <author>
@@ -16,24 +16,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>this is a demo</title>
-    <link href="https://geoblog.github.io/2016/09/07/this-is-a-demo/"/>
-    <id>https://geoblog.github.io/2016/09/07/this-is-a-demo/</id>
-    <published>2016-09-07T05:00:29.000Z</published>
-    <updated>2016-09-07T05:01:38.415Z</updated>
+    <title>7 64 hexo</title>
+    <link href="https://geoblog.github.io/2017/02/22/iphone-7%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>https://geoblog.github.io/2017/02/22/iphone-7 - 副本/</id>
+    <published>2017-02-22T01:05:56.000Z</published>
+    <updated>2017-02-22T00:37:26.790Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="重新布署地理博客"><a href="#重新布署地理博客" class="headerlink" title="重新布署地理博客"></a>重新布署地理博客</h1><ul>
-<li>用新邮箱注册github用户名XX，验证邮箱，创建xx.github.io仓库。</li>
-<li>进github for windows，git shell ，安装hexo，下载安装next，修改配置文件的deploy为git，github仓库名，master。</li>
-<li>npm install hexo-deployer-git –save 为HEXO安装git。</li>
-<li>添加百度统计、多说评论等第三方库。</li>
-</ul>
+    <content type="html"><![CDATA[<p> npm install –unsafe-perm –verbose -g hexo<br> 解决出错的SKIP ERROR</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;重新布署地理博客&quot;&gt;&lt;a href=&quot;#重新布署地理博客&quot; class=&quot;headerlink&quot; title=&quot;重新布署地理博客&quot;&gt;&lt;/a&gt;重新布署地理博客&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;用新邮箱注册github用户名XX，验证邮箱，创建xx.github.io仓库。
+      &lt;p&gt; npm install –unsafe-perm –verbose -g hexo&lt;br&gt; 解决出错的SKIP ERROR&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>iphone 7</title>
+    <link href="https://geoblog.github.io/2016/09/09/iphone-7/"/>
+    <id>https://geoblog.github.io/2016/09/09/iphone-7/</id>
+    <published>2016-09-09T01:05:56.000Z</published>
+    <updated>2016-09-09T01:08:29.892Z</updated>
+    
+    <content type="html"><![CDATA[<p>近期IHPONE7发布了，各位对其性能、外观等各方面是否好奇呢？请看网上的视频介绍吧~</p>
+<iframe height="498" width="510" src="http://player.youku.com/embed/XMTcxNTM1NjUwMA==" frameborder="0" 'allowfullscreen'=""></iframe>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;近期IHPONE7发布了，各位对其性能、外观等各方面是否好奇呢？请看网上的视频介绍吧~&lt;/p&gt;
+&lt;iframe height=&quot;498&quot; width=&quot;510&quot; src=&quot;http://player.youku.com/embed/XMTcxNTM1NjUwMA==&quot; fr
     
     </summary>
     
@@ -44,7 +59,7 @@
     <title>Hello World</title>
     <link href="https://geoblog.github.io/2016/09/07/hello-world/"/>
     <id>https://geoblog.github.io/2016/09/07/hello-world/</id>
-    <published>2016-09-07T03:44:19.856Z</published>
+    <published>2016-09-07T09:22:24.647Z</published>
     <updated>2016-09-07T01:51:03.225Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
