@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://geoblog.github.io/"/>
-  <updated>2017-03-05T04:17:20.355Z</updated>
+  <updated>2017-03-06T07:26:39.137Z</updated>
   <id>https://geoblog.github.io/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mon Mar 06 2017 00:00:00 GMT+0800 (中国标准时间)</title>
+    <link href="https://geoblog.github.io/2017/03/06/2017-03-06/"/>
+    <id>https://geoblog.github.io/2017/03/06/2017-03-06/</id>
+    <published>2017-03-06T04:55:14.482Z</published>
+    <updated>2017-03-06T07:26:39.137Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="kaggle"><a href="#kaggle" class="headerlink" title="kaggle"></a>kaggle</h1><p>注册了kaggle账户，用的是yahoo.com的邮箱，用QQ邮箱注册时收到的验证链接打开后显示不了验证码。<br>看了TITANIC的示例数据及指导，下载安装WIN7 64位的</p>
+<h2 id="XGBOOST"><a href="#XGBOOST" class="headerlink" title="XGBOOST"></a>XGBOOST</h2><p>参考GITHUB上的安装指引。<br>This page gives instructions on how to build and install the xgboost package from scratch on various systems. It consists of two steps:</p>
+<p>First build the shared library from the C++ codes (libxgboost.so for linux/osx and libxgboost.dll for windows).<br>Exception: for R-package installation please directly refer to the R package section.<br>Then install the language packages (e.g. Python Package).<br>Important the newest version of xgboost uses submodule to maintain packages. So when you clone the repo, remember to use the recursive option as follows.</p>
+<p>安装git for windows,打开git-bash</p>
+<pre><code>cd c:
+git clone --recursive https://github.com/dmlc/xgboost
+</code></pre><p>For windows users who use github tools, you can open the git shell, and type the following command.<br>    cd xgboost<br>    git submodule init<br>    git submodule update</p>
+<h2 id="Building-on-Windows"><a href="#Building-on-Windows" class="headerlink" title="Building on Windows"></a>Building on Windows</h2><p>XGBoost support both build by MSVC or MinGW. Here is how you can build xgboost library using MinGW.</p>
+<p>After installing Git for Windows, you should have a shortcut Git Bash. All the following steps are in the Git Bash.</p>
+<p>In MinGW, make command comes with the name mingw32-make. You can add the following line into the .bashrc file.</p>
+<pre><code>alias make=&apos;mingw32-make&apos;
+</code></pre><p>To build with MinGW</p>
+<pre><code>cp make/mingw64.mk config.mk; make -j4
+</code></pre><p>MinGW尝试，不成功。</p>
+<p>To build with Visual Studio 2013 use cmake. Make sure you have a recent version of cmake added to your path and then from the xgboost directory:</p>
+<pre><code>mkdir build
+cd build
+cmake .. -G&quot;Visual Studio 12 2013 Win64&quot;
+</code></pre><p>This specifies an out of source build using the MSVC 12 64 bit generator. Open the .sln file in the build directory and build with Visual Studio. To use the Python module ,</p>
+<p><strong>you can copy libxgboost.dll into<br>c:\xgboost\python-package\xgboost.</strong></p>
+<pre><code>python setup.py install
+</code></pre><p>安装成功。<br>ipython import xgboost ok.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;kaggle&quot;&gt;&lt;a href=&quot;#kaggle&quot; class=&quot;headerlink&quot; title=&quot;kaggle&quot;&gt;&lt;/a&gt;kaggle&lt;/h1&gt;&lt;p&gt;注册了kaggle账户，用的是yahoo.com的邮箱，用QQ邮箱注册时收到的验证链接打开后显示不了验证码。
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>现在开始记录</title>
