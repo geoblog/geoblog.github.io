@@ -86,7 +86,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, Geoblog" />
+  <meta name="keywords" content="机器学习," />
 
 
 
@@ -104,19 +104,25 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="学习机器学习回归之数据清洗。把非正态分布的数据变为正态分布可用LOG函数。把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables
+#convert categorical variable into dummy
+df_train = pd.get_dummies(df_train)
+ReferencesHair et al">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://geoblog.github.io/2016/09/07/hello-world/index.html">
+<meta property="og:title" content="2017-03-07kaggle">
+<meta property="og:url" content="https://geoblog.github.io/2017/03/07/20170307/index.html">
 <meta property="og:site_name" content="地理博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-09-07T01:51:03.225Z">
+<meta property="og:description" content="学习机器学习回归之数据清洗。把非正态分布的数据变为正态分布可用LOG函数。把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables
+#convert categorical variable into dummy
+df_train = pd.get_dummies(df_train)
+ReferencesHair et al">
+<meta property="og:updated_time" content="2017-03-08T04:46:13.446Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="2017-03-07kaggle">
+<meta name="twitter:description" content="学习机器学习回归之数据清洗。把非正态分布的数据变为正态分布可用LOG函数。把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables
+#convert categorical variable into dummy
+df_train = pd.get_dummies(df_train)
+ReferencesHair et al">
 
 
 
@@ -137,9 +143,9 @@ Quick">
 
 
 
-  <link rel="canonical" href="https://geoblog.github.io/2016/09/07/hello-world/"/>
+  <link rel="canonical" href="https://geoblog.github.io/2017/03/07/20170307/"/>
 
-  <title> Hello World | 地理博客 </title>
+  <title> 2017-03-07kaggle | 地理博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -279,7 +285,7 @@ Quick">
             
             
               
-                Hello World
+                2017-03-07kaggle
               
             
           </h1>
@@ -291,8 +297,8 @@ Quick">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-07T17:22:24+08:00" content="2016-09-07">
-              2016-09-07
+            <time itemprop="dateCreated" datetime="2017-03-07T11:20:19+08:00" content="2017-03-07">
+              2017-03-07
             </time>
           </span>
 
@@ -302,8 +308,8 @@ Quick">
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/09/07/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/07/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2017/03/07/20170307/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/07/20170307/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -326,16 +332,93 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="http://music.163.com/outchain/player?type=0&id=459115793&auto=0&height=430"></iframe>
+        <p>学习机器学习回归之数据清洗。<br>把非正态分布的数据变为正态分布可用LOG函数。<br>把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables</p>
+<pre><code>#convert categorical variable into dummy
+df_train = pd.get_dummies(df_train)
+</code></pre><p>References<br>Hair et al., 2013, Multivariate Data Analysis, 7th Edition (<a href="https://www.amazon.com/Multivariate-Data-Analysis-Joseph-Hair/dp/0138132631" target="_blank" rel="external">https://www.amazon.com/Multivariate-Data-Analysis-Joseph-Hair/dp/0138132631</a>)<br>数据处理：特征筛选，把因子中两两相关的只取其一，MISS DATA处理（删除或填补），LOG正态化，分类数据dummy处理,PCA降维(np.cumsum(pca.explained_variance<em>ratio</em>)=1时的主成分数就是目标参数)</p>
+<pre><code>pca = PCA(whiten=True)
+pca.fit(data)
+variance = pd.DataFrame(pca.explained_variance_ratio_)
+np.cumsum(pca.explained_variance_ratio_)
+</code></pre><p>选择多种算法，取效果最好的那一种。再GRIDSERCHCV寻找最佳参数。<br>线性回归，SVR，集成方法，以KAGGLE社区上代码为例<a href="https://www.kaggle.com/miguelangelnieto/house-prices-advanced-regression-techniques/pca-and-regression/notebook" title="PCA and Regression" target="_blank" rel="external">https://www.kaggle.com/miguelangelnieto/house-prices-advanced-regression-techniques/pca-and-regression/notebook</a></p>
+<pre><code>def lets_try(train,labels):
+    results={}
+       def test_model(clf):
+
+        cv = KFold(n_splits=5,shuffle=True,random_state=45)
+        r2 = make_scorer(r2_score)
+        r2_val_score = cross_val_score(clf, train, labels, cv=cv,scoring=r2)
+        scores=[r2_val_score.mean()]
+        return scores
+
+    clf = linear_model.LinearRegression()
+    results[&quot;Linear&quot;]=test_model(clf)
+
+    clf = linear_model.Ridge()
+    results[&quot;Ridge&quot;]=test_model(clf)
+
+    clf = linear_model.BayesianRidge()
+    results[&quot;Bayesian Ridge&quot;]=test_model(clf)
+
+    clf = linear_model.HuberRegressor()
+    results[&quot;Hubber&quot;]=test_model(clf)
+
+    clf = linear_model.Lasso(alpha=1e-4)
+    results[&quot;Lasso&quot;]=test_model(clf)
+
+    clf = BaggingRegressor()
+    results[&quot;Bagging&quot;]=test_model(clf)
+
+    clf = RandomForestRegressor()
+    results[&quot;RandomForest&quot;]=test_model(clf)
+
+    clf = AdaBoostRegressor()
+    results[&quot;AdaBoost&quot;]=test_model(clf)
+
+    clf = svm.SVR()
+    results[&quot;SVM RBF&quot;]=test_model(clf)
+
+    clf = svm.SVR(kernel=&quot;linear&quot;)
+    results[&quot;SVM Linear&quot;]=test_model(clf)
+
+    results = pd.DataFrame.from_dict(results,orient=&apos;index&apos;)
+    results.columns=[&quot;R Square Score&quot;] 
+    results=results.sort(columns=[&quot;R Square Score&quot;],ascending=False)
+    results.plot(kind=&quot;bar&quot;,title=&quot;Model Scores&quot;)
+    axes = plt.gca()
+    axes.set_ylim([0.5,1])
+    return results
+</code></pre><p>sklearn.linear_model.HuberRegressor</p>
+<p>Fit Ridge and HuberRegressor on a dataset with outliers.<br>The example shows that the predictions in ridge are strongly influenced by the outliers present in the dataset. <strong>The Huber regressor is less influenced by the outliers</strong> since the model uses the linear loss for these. As the parameter epsilon is increased for the Huber regressor, the decision function approaches that of the ridge.</p>
+<p><a href="https://www.kaggle.com/jimthompson/house-prices-advanced-regression-techniques/ensemble-model-stacked-model-example/notebook" target="_blank" rel="external">https://www.kaggle.com/jimthompson/house-prices-advanced-regression-techniques/ensemble-model-stacked-model-example/notebook</a></p>
+<p>To fit within the constraints of Kaggle’s Kernel offering, a simplified structure for the stacked model was used in this report. The specific simplications are</p>
+<p>Limit Level 0 to three models<br>LImit Level 1 to one model<br>Improvements in stacked model performance can be accomplished by</p>
+<p>Adding models to Level 0 and Level 1 using different algorithms<br>Tuning model Hyper-parameters<br>Adding feature sets by feature engineering<br>Adding levels in the model structure<br>For additional information on model stacking see these references:</p>
+<p>MLWave: Kaggle Ensembling Guide<br>Kaggle Forum Posting: Stacking<br>Winning Data Science Competitions: Jeong-Yoon Lee This talk is about 90 minutes long. The sections relevant to model stacking are discussed in these segments (h:mm:ss to h:mm:ss): 1:05:25 to 1:12:15 and 1:21:30 to 1:27:00.</p>
+<p>现有数据应该分为训练集和测试集，训练集拟合前应该打乱顺序时免受到时间序列的影响。交叉验证选择最优参数，然后在测试集上评分。然后</p>
+<ul>
+<li>选择最高分的模式作为最终模式</li>
+<li>或者把多个高分模式的结果进行平均，得到一个平均数据作为最终模式结果（集成）</li>
+</ul>
+<p>Stacked generalization</p>
+<p>Stacked generalization was introduced by Wolpert in a 1992 paper, 2 years before the seminal Breiman paper “Bagging Predictors“. Wolpert is famous for another very popular machine learning theorem: “There is no free lunch in search and optimization“.</p>
+<p>The basic idea behind stacked generalization is to use a pool of base classifiers, then using another classifier to combine their predictions, with the aim of reducing the generalization error.</p>
+<p>Let’s say you want to do 2-fold stacking:</p>
+<p>Split the train set in 2 parts: train_a and train_b<br>Fit a first-stage model on train_a and create predictions for train_b<br>Fit the same model on train_b and create predictions for train_a<br>Finally fit the model on the entire train set and create predictions for the test set.<br>Now train a second-stage stacker model on the probabilities from the first-stage model(s).<br>A stacker model gets more information on the problem space by using the first-stage predictions as features, than if it was trained in isolation.</p>
+<p>It is usually desirable that the level 0 generalizers are of all “types”, and not just simple variations of one another (e.g., we want surface-fitters, Turing-machine builders, statistical extrapolators, etc., etc.). In this way all possible ways of examining the learning set and trying to extrapolate from it are being exploited. This is part of what is meant by saying that the level 0 generalizers should “span the space”.</p>
+<p>[…] stacked generalization is a means of non-linearly combining generalizers to make a new generalizer, to try to optimally integrate what each of the original generalizers has to say about the learning set. The more each generalizer has to say (which isn’t duplicated in what the other generalizer’s have to say), the better the resultant stacked generalization. Wolpert (1992) Stacked Generalization</p>
+<p>Blending</p>
+<p>Blending is a word introduced by the Netflix winners. It is very close to stacked generalization, but a bit simpler and less risk of an information leak. Some researchers use “stacked ensembling” and “blending” interchangeably.</p>
+<p>With blending, instead of creating out-of-fold predictions for the train set, you create a small holdout set of say 10% of the train set. The stacker model then trains on this holdout set only.</p>
+<p>Blending has a few benefits:</p>
+<p>It is simpler than stacking.<br>It wards against an information leak: The generalizers and stackers use different data.<br>You do not need to share a seed for stratified folds with your teammates. Anyone can throw models in the ‘blender’ and the blender decides if it wants to keep that model or not.<br>The cons are:</p>
+<p>You use less data overall<br>The final model may overfit to the holdout set.<br>Your CV is more solid with stacking (calculated over more folds) than using a single small holdout set.<br>As for performance, both techniques are able to give similar results, and it seems to be a matter of preference and skill which you prefer. I myself prefer stacking.</p>
+<p>If you can not choose, you can always do both. Create stacked ensembles with stacked generalization and out-of-fold predictions. Then use a holdout set to further combine these models at a third stage.</p>
+<p>Stacking with logistic regression</p>
+<p>Stacking with logistic regression is one of the more basic and traditional ways of stacking. A script I found by Emanuele Olivetti helped me understand this.</p>
+<p><strong>When creating predictions for the test set, you can do that in one go, or take an average of the out-of-fold predictors. Though taking the average is the clean and more accurate way to do this, I still prefer to do it in one go as that slightly lowers both model and coding complexity.</strong></p>
+<p><a href="http://mlwave.com/kaggle-ensembling-guide/" target="_blank" rel="external">http://mlwave.com/kaggle-ensembling-guide/</a><br>上文提到了自动选择多个模型并建立集成模型，并获得了良好的效果。缺限可能在于预测所花时间较长，模型较复杂。</p>
+
       
     </div>
 
@@ -376,21 +459,27 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/机器学习/" rel="tag">#机器学习</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/08/27/my-new-post/" rel="next" title="利用github and Hexo建立个人blog">
-                <i class="fa fa-chevron-left"></i> 利用github and Hexo建立个人blog
+              <a href="/2017/03/06/2017-03-06/" rel="next" title="kaggle小试2017-03-06">
+                <i class="fa fa-chevron-left"></i> kaggle小试2017-03-06
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/03/05/2017-03-05/" rel="prev" title="现在开始记录">
-                现在开始记录 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/03/08/2017-03-08kaggle/" rel="prev" title="2017-03-08 kaggle">
+                2017-03-08 kaggle <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -417,8 +506,8 @@ Quick">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/09/07/hello-world/"
-           data-title="Hello World" data-url="https://geoblog.github.io/2016/09/07/hello-world/">
+      <div class="ds-thread" data-thread-key="2017/03/07/20170307/"
+           data-title="2017-03-07kaggle" data-url="https://geoblog.github.io/2017/03/07/20170307/">
       </div>
     
   </div>
@@ -571,7 +660,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
         </section>
