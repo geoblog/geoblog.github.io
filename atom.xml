@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://geoblog.github.io/"/>
-  <updated>2017-03-10T01:21:59.093Z</updated>
+  <updated>2017-03-10T08:20:16.813Z</updated>
   <id>https://geoblog.github.io/</id>
   
   <author>
@@ -16,13 +16,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2017-03-10 kaggle</title>
+    <link href="https://geoblog.github.io/2017/03/10/2017-03-10-kaggle/"/>
+    <id>https://geoblog.github.io/2017/03/10/2017-03-10-kaggle/</id>
+    <published>2017-03-10T01:42:44.000Z</published>
+    <updated>2017-03-10T08:20:16.813Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天用notebook matplotlib和seaborn对一组示例数据进行可视化分析，发现有必要对各目标变量进行LOG处理，处理前多为非正态分布，处理后可能会对预测能力有所提高。对各因素进行相关分析后发现有许多自相关的可以去掉其中一个。</p>
+<pre><code>&gt;&gt;&gt; np.log([1, np.e, np.e**2, 0])
+array([  0.,   1.,   2., -Inf])
+</code></pre><p>对训练数据进行处理，对目标数据可以不用，因为预测时不可能对目标数据进行处理。<br>把CPRE换成[0，1]的dummy数据。</p>
+<p>把两个LIST组合起来，然后排序，其中一个LIST是数值。用ZIP组合，再转成DICT，再用PD的series排序</p>
+<pre><code>f_importance=pd.Series(dict(list(zip(column,etr.feature_importances_,)))).sort_values()
+</code></pre><p>当训练数据为10天以内里线性方法的R_squre为0.16，当数据增加到30天时，R_squre为0.56，训练数据的增加提高了预测的R_squre。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天用notebook matplotlib和seaborn对一组示例数据进行可视化分析，发现有必要对各目标变量进行LOG处理，处理前多为非正态分布，处理后可能会对预测能力有所提高。对各因素进行相关分析后发现有许多自相关的可以去掉其中一个。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;
+    
+    </summary>
+    
+    
+      <category term="机器学习" scheme="https://geoblog.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2017-03-08 kaggle</title>
     <link href="https://geoblog.github.io/2017/03/08/2017-03-08kaggle/"/>
     <id>https://geoblog.github.io/2017/03/08/2017-03-08kaggle/</id>
     <published>2017-03-08T06:21:06.000Z</published>
-    <updated>2017-03-10T01:21:59.093Z</updated>
+    <updated>2017-03-10T01:40:31.494Z</updated>
     
-    <content type="html"><![CDATA[<p>sklearn.metrics.r2_score(y_true, y_pred, sample_weight=None, multioutput=None)</p>
+    <content type="html"><![CDATA[<h1 id="模型评分函数"><a href="#模型评分函数" class="headerlink" title="模型评分函数"></a>模型评分函数</h1><p>sklearn.metrics.r2_score(y_true, y_pred, sample_weight=None, multioutput=None)</p>
 <p>R^2 (coefficient of determination) regression score function.</p>
 <p>Best possible score is 1.0 and <strong>it can be negative</strong> (because the model can be arbitrarily worse). A constant model that always predicts the expected value of y, disregarding the input features, would get a R^2 score of 0.0.</p>
 <p>Notes</p>
@@ -32,8 +60,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;sklearn.metrics.r2_score(y_true, y_pred, sample_weight=None, multioutput=None)&lt;/p&gt;
-&lt;p&gt;R^2 (coefficient of determination) regression score
+      &lt;h1 id=&quot;模型评分函数&quot;&gt;&lt;a href=&quot;#模型评分函数&quot; class=&quot;headerlink&quot; title=&quot;模型评分函数&quot;&gt;&lt;/a&gt;模型评分函数&lt;/h1&gt;&lt;p&gt;sklearn.metrics.r2_score(y_true, y_pred, sample_weight
     
     </summary>
     
