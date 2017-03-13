@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://geoblog.github.io/"/>
-  <updated>2017-03-10T09:13:40.888Z</updated>
+  <updated>2017-03-13T09:18:13.607Z</updated>
   <id>https://geoblog.github.io/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2017-03-13notebook</title>
+    <link href="https://geoblog.github.io/2017/03/13/2017-03-13notebook/"/>
+    <id>https://geoblog.github.io/2017/03/13/2017-03-13notebook/</id>
+    <published>2017-03-13T01:32:32.000Z</published>
+    <updated>2017-03-13T09:18:13.607Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天想一想，如果把通过一个月数据训练出来的模型去检验另一个月的数据，效果会怎么样呢？<br><img src="http://img.blog.csdn.net/20170313111846146?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbW1taXJh/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""><br>r_squre of etr for Feb. is  0.389003895043<br>r_squre of rfr is  0.300086648874<br>r_squre of gbr is  0.336271301841<br>r_squre of abr is  -0.00792153810961<br>r_squre of dis_knr is  0.026832730496<br>r_squre of rbf_svr is  0.439851387112<br>rbf_svr的效果最好<br>如果把这几个r2_score在0.8以上的模型的数据集合起来做一个平均，会有所提高吗？</p>
+<p>print(‘r<em>squre of avg</em> is ‘,r2_score(y2,y_avr))</p>
+<p>print(‘mean_squared<em>error of avg</em> is ‘,mean_squared_error(ss_y.inverse_transform(y2),ss_y.inverse_transform(y_avr)))</p>
+<p>使用etr,rfr,grb,xgb,svr rbf,svr linear,<br><img src="http://i.imgur.com/byCQazM.png" alt=""><br>用PIPELINE简化代码，把多个模型的结果组合起来。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天想一想，如果把通过一个月数据训练出来的模型去检验另一个月的数据，效果会怎么样呢？&lt;br&gt;&lt;img src=&quot;http://img.blog.csdn.net/20170313111846146?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkb
+    
+    </summary>
+    
+    
+      <category term="机器学习" scheme="https://geoblog.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>2017-03-10kaggle</title>
