@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://geoblog.github.io/"/>
-  <updated>2017-03-14T08:57:39.381Z</updated>
+  <updated>2017-07-10T07:10:30.161Z</updated>
   <id>https://geoblog.github.io/</id>
   
   <author>
@@ -14,6 +14,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20170710</title>
+    <link href="https://geoblog.github.io/2017/07/10/20170710/"/>
+    <id>https://geoblog.github.io/2017/07/10/20170710/</id>
+    <published>2017-07-10T07:06:02.000Z</published>
+    <updated>2017-07-10T07:10:30.161Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="订个目标吧"><a href="#订个目标吧" class="headerlink" title="订个目标吧"></a>订个目标吧</h1><p>好久没写BLOG了，都快忘记了怎么用HEXO了。<br>今天整理了一下思路，给下半年做个计划。<br>MARKDOWN也快忘记怎么用了。。。还好有MarkdownPad…</p>
+<ol>
+<li>把BLOG写起来，记录一些知识碎片。</li>
+<li>添加一些地理知识类的分享。</li>
+<li>LIFE IS SHORT ,YOU NEED PYTHON.</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;订个目标吧&quot;&gt;&lt;a href=&quot;#订个目标吧&quot; class=&quot;headerlink&quot; title=&quot;订个目标吧&quot;&gt;&lt;/a&gt;订个目标吧&lt;/h1&gt;&lt;p&gt;好久没写BLOG了，都快忘记了怎么用HEXO了。&lt;br&gt;今天整理了一下思路，给下半年做个计划。&lt;br&gt;MARKDOW
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2017-04-15tensorflow</title>
+    <link href="https://geoblog.github.io/2017/04/15/2017-04-15tensorflow/"/>
+    <id>https://geoblog.github.io/2017/04/15/2017-04-15tensorflow/</id>
+    <published>2017-04-15T04:50:45.000Z</published>
+    <updated>2017-04-18T08:52:24.575Z</updated>
+    
+    <content type="html"><![CDATA[<p>准备学习GPU版TENSORFLOW及TENSORLAYER的神经网络技术。<br>计划安装linux、WIN10双系统，开源就是力量哈哈。<br>pycharm及anaconda是必备选项。<br>做业务还是用WIN系统比较方便，LINUX做开发用吧。<br>编辑PyCharm安装目录下PyCharm 4.5.3\bin下的pycharm.exe.vmoptions 修改CACHE SIZE。</p>
+<p>F——test<br>from sklearn.feature_selection import f_regression<br>return f score,p</p>
+<p>pearonr<br>from scipy.stats import pearsonr<br>return r,p </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;准备学习GPU版TENSORFLOW及TENSORLAYER的神经网络技术。&lt;br&gt;计划安装linux、WIN10双系统，开源就是力量哈哈。&lt;br&gt;pycharm及anaconda是必备选项。&lt;br&gt;做业务还是用WIN系统比较方便，LINUX做开发用吧。&lt;br&gt;编辑PyCh
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2017-03-13notebook</title>
