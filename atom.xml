@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://geoblog.github.io/"/>
-  <updated>2017-07-11T00:28:35.385Z</updated>
+  <updated>2017-07-11T00:34:55.213Z</updated>
   <id>https://geoblog.github.io/</id>
   
   <author>
@@ -20,15 +20,15 @@
     <link href="https://geoblog.github.io/2017/07/10/20170710train/"/>
     <id>https://geoblog.github.io/2017/07/10/20170710train/</id>
     <published>2017-07-10T07:31:35.000Z</published>
-    <updated>2017-07-11T00:28:35.385Z</updated>
+    <updated>2017-07-11T00:34:55.213Z</updated>
     
-    <content type="html"><![CDATA[<p>#视频学习<br>刚才QQ推送，介绍了中国铁路的进步，大家可以学习一下哦。（注意iframe，不然识别不了）</p>
+    <content type="html"><![CDATA[<p>#视频学习<br>刚才QQ推送，介绍了中国铁路的进步，大家可以学习一下哦。</p>
 <iframe width="500" height="500" frameborder="0" src="http://player.youku.com/embed/XMjc3NDc4OTY4MA==" allowfullscreen> </iframe>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;#视频学习&lt;br&gt;刚才QQ推送，介绍了中国铁路的进步，大家可以学习一下哦。（注意iframe，不然识别不了）&lt;/p&gt;
-&lt;iframe width=&quot;500&quot; height=&quot;500&quot; frameborder=&quot;0&quot; src=&quot;http://player.youku.com/
+      &lt;p&gt;#视频学习&lt;br&gt;刚才QQ推送，介绍了中国铁路的进步，大家可以学习一下哦。&lt;/p&gt;
+&lt;iframe width=&quot;500&quot; height=&quot;500&quot; frameborder=&quot;0&quot; src=&quot;http://player.youku.com/embed/XMjc3NDc4OT
     
     </summary>
     
@@ -79,6 +79,48 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>2017-04-05ML_blending</title>
+    <link href="https://geoblog.github.io/2017/04/05/2017-04-05ML-blending/"/>
+    <id>https://geoblog.github.io/2017/04/05/2017-04-05ML-blending/</id>
+    <published>2017-04-05T08:33:09.000Z</published>
+    <updated>2017-07-11T00:36:49.161Z</updated>
+    
+    <content type="html"><![CDATA[<p>机器学习算法比较多，在同一个问题上，不同算法的性能有差异，Kaggle上的高手们推荐采用ensemble方法提高模型效果，试着看了一些他们推荐的方法，采用blending方法，确实效果有所提高。<br>An ensemble method combines the predictions of different<br>algorithms (the ensemble) to obtain a final prediction<br>Each single algorithm models the data in<br>a different way. Therefore a suitable combination of these<br>predictions can significantly improve the prediction performance.<br>Jahrer M, Töscher A, Legenstein R. Combining predictions for accurate recommender systems[C]// ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2010:693-702.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;机器学习算法比较多，在同一个问题上，不同算法的性能有差异，Kaggle上的高手们推荐采用ensemble方法提高模型效果，试着看了一些他们推荐的方法，采用blending方法，确实效果有所提高。&lt;br&gt;An ensemble method combines the pred
+    
+    </summary>
+    
+    
+      <category term="ML" scheme="https://geoblog.github.io/tags/ML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2017-03-21kaggle</title>
+    <link href="https://geoblog.github.io/2017/03/21/2017-03-21kaggle/"/>
+    <id>https://geoblog.github.io/2017/03/21/2017-03-21kaggle/</id>
+    <published>2017-03-21T02:35:02.000Z</published>
+    <updated>2017-07-11T00:36:22.217Z</updated>
+    
+    <content type="html"><![CDATA[<p>用notebook在线编码还是比较方便的。用各种回归方法进行测试拟合，训练集的性能还可以，但是用样本外的数据测试时R2及MSE\MAE所表现的性能较差。<br>用365天、180天、90天数据进行训练，发现样本越多，测试集上的效果却越差。<br>尝试feature engineering<br>尝试stacking</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用notebook在线编码还是比较方便的。用各种回归方法进行测试拟合，训练集的性能还可以，但是用样本外的数据测试时R2及MSE\MAE所表现的性能较差。&lt;br&gt;用365天、180天、90天数据进行训练，发现样本越多，测试集上的效果却越差。&lt;br&gt;尝试feature engi
+    
+    </summary>
+    
+    
+      <category term="机器学习" scheme="https://geoblog.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
