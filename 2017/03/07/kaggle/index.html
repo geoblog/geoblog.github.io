@@ -104,22 +104,25 @@
 
 
 
-<meta name="description" content="模型评分函数sklearn.metrics.r2_score(y_true, y_pred, sample_weight=None, multioutput=None)
-R^2 (coefficient of determination) regression score function.
-Best possible score is 1.0 and it can be negative (be">
+<meta name="description" content="学习机器学习回归之数据清洗。把非正态分布的数据变为正态分布可用LOG函数。把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables
+#convert categorical variable into dummy
+df_train = pd.get_dummies(df_train)
+ReferencesHair et al">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2017-03-08 kaggle">
-<meta property="og:url" content="https://geoblog.github.io/2017/03/08/2017-03-08kaggle/index.html">
+<meta property="og:title" content="kaggle数据清洗">
+<meta property="og:url" content="https://geoblog.github.io/2017/03/07/kaggle/index.html">
 <meta property="og:site_name" content="地理博客">
-<meta property="og:description" content="模型评分函数sklearn.metrics.r2_score(y_true, y_pred, sample_weight=None, multioutput=None)
-R^2 (coefficient of determination) regression score function.
-Best possible score is 1.0 and it can be negative (be">
-<meta property="og:updated_time" content="2017-03-10T01:40:31.494Z">
+<meta property="og:description" content="学习机器学习回归之数据清洗。把非正态分布的数据变为正态分布可用LOG函数。把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables
+#convert categorical variable into dummy
+df_train = pd.get_dummies(df_train)
+ReferencesHair et al">
+<meta property="og:updated_time" content="2017-07-10T07:24:40.105Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="2017-03-08 kaggle">
-<meta name="twitter:description" content="模型评分函数sklearn.metrics.r2_score(y_true, y_pred, sample_weight=None, multioutput=None)
-R^2 (coefficient of determination) regression score function.
-Best possible score is 1.0 and it can be negative (be">
+<meta name="twitter:title" content="kaggle数据清洗">
+<meta name="twitter:description" content="学习机器学习回归之数据清洗。把非正态分布的数据变为正态分布可用LOG函数。把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables
+#convert categorical variable into dummy
+df_train = pd.get_dummies(df_train)
+ReferencesHair et al">
 
 
 
@@ -140,9 +143,9 @@ Best possible score is 1.0 and it can be negative (be">
 
 
 
-  <link rel="canonical" href="https://geoblog.github.io/2017/03/08/2017-03-08kaggle/"/>
+  <link rel="canonical" href="https://geoblog.github.io/2017/03/07/kaggle/"/>
 
-  <title> 2017-03-08 kaggle | 地理博客 </title>
+  <title> kaggle数据清洗 | 地理博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -282,7 +285,7 @@ Best possible score is 1.0 and it can be negative (be">
             
             
               
-                2017-03-08 kaggle
+                kaggle数据清洗
               
             
           </h1>
@@ -294,8 +297,8 @@ Best possible score is 1.0 and it can be negative (be">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-03-08T14:21:06+08:00" content="2017-03-08">
-              2017-03-08
+            <time itemprop="dateCreated" datetime="2017-03-07T11:20:19+08:00" content="2017-03-07">
+              2017-03-07
             </time>
           </span>
 
@@ -305,8 +308,8 @@ Best possible score is 1.0 and it can be negative (be">
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2017/03/08/2017-03-08kaggle/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/08/2017-03-08kaggle/" itemprop="commentsCount"></span>
+                <a href="/2017/03/07/kaggle/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/07/kaggle/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -329,12 +332,92 @@ Best possible score is 1.0 and it can be negative (be">
       
 
       
-        <h1 id="模型评分函数"><a href="#模型评分函数" class="headerlink" title="模型评分函数"></a>模型评分函数</h1><p>sklearn.metrics.r2_score(y_true, y_pred, sample_weight=None, multioutput=None)</p>
-<p>R^2 (coefficient of determination) regression score function.</p>
-<p>Best possible score is 1.0 and <strong>it can be negative</strong> (because the model can be arbitrarily worse). A constant model that always predicts the expected value of y, disregarding the input features, would get a R^2 score of 0.0.</p>
-<p>Notes</p>
-<p>This is not a symmetric function.<br>Unlike most other scores, R^2 score may be negative (it need not actually be the square of a quantity R).</p>
-<p>用了LOG函数处理SO2后，分布变得NORM</p>
+        <p>学习机器学习回归之数据清洗。<br>把非正态分布的数据变为正态分布可用LOG函数。<br>把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables</p>
+<pre><code>#convert categorical variable into dummy
+df_train = pd.get_dummies(df_train)
+</code></pre><p>References<br>Hair et al., 2013, Multivariate Data Analysis, 7th Edition (<a href="https://www.amazon.com/Multivariate-Data-Analysis-Joseph-Hair/dp/0138132631" target="_blank" rel="external">https://www.amazon.com/Multivariate-Data-Analysis-Joseph-Hair/dp/0138132631</a>)<br>数据处理：特征筛选，把因子中两两相关的只取其一，MISS DATA处理（删除或填补），LOG正态化，分类数据dummy处理,PCA降维(np.cumsum(pca.explained_variance<em>ratio</em>)=1时的主成分数就是目标参数)</p>
+<pre><code>pca = PCA(whiten=True)
+pca.fit(data)
+variance = pd.DataFrame(pca.explained_variance_ratio_)
+np.cumsum(pca.explained_variance_ratio_)
+</code></pre><p>选择多种算法，取效果最好的那一种。再GRIDSERCHCV寻找最佳参数。<br>线性回归，SVR，集成方法，以KAGGLE社区上代码为例<a href="https://www.kaggle.com/miguelangelnieto/house-prices-advanced-regression-techniques/pca-and-regression/notebook" title="PCA and Regression" target="_blank" rel="external">https://www.kaggle.com/miguelangelnieto/house-prices-advanced-regression-techniques/pca-and-regression/notebook</a></p>
+<pre><code>def lets_try(train,labels):
+    results={}
+       def test_model(clf):
+
+        cv = KFold(n_splits=5,shuffle=True,random_state=45)
+        r2 = make_scorer(r2_score)
+        r2_val_score = cross_val_score(clf, train, labels, cv=cv,scoring=r2)
+        scores=[r2_val_score.mean()]
+        return scores
+
+    clf = linear_model.LinearRegression()
+    results[&quot;Linear&quot;]=test_model(clf)
+
+    clf = linear_model.Ridge()
+    results[&quot;Ridge&quot;]=test_model(clf)
+
+    clf = linear_model.BayesianRidge()
+    results[&quot;Bayesian Ridge&quot;]=test_model(clf)
+
+    clf = linear_model.HuberRegressor()
+    results[&quot;Hubber&quot;]=test_model(clf)
+
+    clf = linear_model.Lasso(alpha=1e-4)
+    results[&quot;Lasso&quot;]=test_model(clf)
+
+    clf = BaggingRegressor()
+    results[&quot;Bagging&quot;]=test_model(clf)
+
+    clf = RandomForestRegressor()
+    results[&quot;RandomForest&quot;]=test_model(clf)
+
+    clf = AdaBoostRegressor()
+    results[&quot;AdaBoost&quot;]=test_model(clf)
+
+    clf = svm.SVR()
+    results[&quot;SVM RBF&quot;]=test_model(clf)
+
+    clf = svm.SVR(kernel=&quot;linear&quot;)
+    results[&quot;SVM Linear&quot;]=test_model(clf)
+
+    results = pd.DataFrame.from_dict(results,orient=&apos;index&apos;)
+    results.columns=[&quot;R Square Score&quot;] 
+    results=results.sort(columns=[&quot;R Square Score&quot;],ascending=False)
+    results.plot(kind=&quot;bar&quot;,title=&quot;Model Scores&quot;)
+    axes = plt.gca()
+    axes.set_ylim([0.5,1])
+    return results
+</code></pre><p>sklearn.linear_model.HuberRegressor</p>
+<p>Fit Ridge and HuberRegressor on a dataset with outliers.<br>The example shows that the predictions in ridge are strongly influenced by the outliers present in the dataset. <strong>The Huber regressor is less influenced by the outliers</strong> since the model uses the linear loss for these. As the parameter epsilon is increased for the Huber regressor, the decision function approaches that of the ridge.</p>
+<p><a href="https://www.kaggle.com/jimthompson/house-prices-advanced-regression-techniques/ensemble-model-stacked-model-example/notebook" target="_blank" rel="external">https://www.kaggle.com/jimthompson/house-prices-advanced-regression-techniques/ensemble-model-stacked-model-example/notebook</a></p>
+<p>To fit within the constraints of Kaggle’s Kernel offering, a simplified structure for the stacked model was used in this report. The specific simplications are</p>
+<p>Limit Level 0 to three models<br>LImit Level 1 to one model<br>Improvements in stacked model performance can be accomplished by</p>
+<p>Adding models to Level 0 and Level 1 using different algorithms<br>Tuning model Hyper-parameters<br>Adding feature sets by feature engineering<br>Adding levels in the model structure<br>For additional information on model stacking see these references:</p>
+<p>MLWave: Kaggle Ensembling Guide<br>Kaggle Forum Posting: Stacking<br>Winning Data Science Competitions: Jeong-Yoon Lee This talk is about 90 minutes long. The sections relevant to model stacking are discussed in these segments (h:mm:ss to h:mm:ss): 1:05:25 to 1:12:15 and 1:21:30 to 1:27:00.</p>
+<p>现有数据应该分为训练集和测试集，训练集拟合前应该打乱顺序时免受到时间序列的影响。交叉验证选择最优参数，然后在测试集上评分。然后</p>
+<ul>
+<li>选择最高分的模式作为最终模式</li>
+<li>或者把多个高分模式的结果进行平均，得到一个平均数据作为最终模式结果（集成）</li>
+</ul>
+<p>Stacked generalization</p>
+<p>Stacked generalization was introduced by Wolpert in a 1992 paper, 2 years before the seminal Breiman paper “Bagging Predictors“. Wolpert is famous for another very popular machine learning theorem: “There is no free lunch in search and optimization“.</p>
+<p>The basic idea behind stacked generalization is to use a pool of base classifiers, then using another classifier to combine their predictions, with the aim of reducing the generalization error.</p>
+<p>Let’s say you want to do 2-fold stacking:</p>
+<p>Split the train set in 2 parts: train_a and train_b<br>Fit a first-stage model on train_a and create predictions for train_b<br>Fit the same model on train_b and create predictions for train_a<br>Finally fit the model on the entire train set and create predictions for the test set.<br>Now train a second-stage stacker model on the probabilities from the first-stage model(s).<br>A stacker model gets more information on the problem space by using the first-stage predictions as features, than if it was trained in isolation.</p>
+<p>It is usually desirable that the level 0 generalizers are of all “types”, and not just simple variations of one another (e.g., we want surface-fitters, Turing-machine builders, statistical extrapolators, etc., etc.). In this way all possible ways of examining the learning set and trying to extrapolate from it are being exploited. This is part of what is meant by saying that the level 0 generalizers should “span the space”.</p>
+<p>[…] stacked generalization is a means of non-linearly combining generalizers to make a new generalizer, to try to optimally integrate what each of the original generalizers has to say about the learning set. The more each generalizer has to say (which isn’t duplicated in what the other generalizer’s have to say), the better the resultant stacked generalization. Wolpert (1992) Stacked Generalization</p>
+<p>Blending</p>
+<p>Blending is a word introduced by the Netflix winners. It is very close to stacked generalization, but a bit simpler and less risk of an information leak. Some researchers use “stacked ensembling” and “blending” interchangeably.</p>
+<p>With blending, instead of creating out-of-fold predictions for the train set, you create a small holdout set of say 10% of the train set. The stacker model then trains on this holdout set only.</p>
+<p>Blending has a few benefits:</p>
+<p>It is simpler than stacking.<br>It wards against an information leak: The generalizers and stackers use different data.<br>You do not need to share a seed for stratified folds with your teammates. Anyone can throw models in the ‘blender’ and the blender decides if it wants to keep that model or not.<br>The cons are:</p>
+<p>You use less data overall<br>The final model may overfit to the holdout set.<br>Your CV is more solid with stacking (calculated over more folds) than using a single small holdout set.<br>As for performance, both techniques are able to give similar results, and it seems to be a matter of preference and skill which you prefer. I myself prefer stacking.</p>
+<p>If you can not choose, you can always do both. Create stacked ensembles with stacked generalization and out-of-fold predictions. Then use a holdout set to further combine these models at a third stage.</p>
+<p>Stacking with logistic regression</p>
+<p>Stacking with logistic regression is one of the more basic and traditional ways of stacking. A script I found by Emanuele Olivetti helped me understand this.</p>
+<p><strong>When creating predictions for the test set, you can do that in one go, or take an average of the out-of-fold predictors. Though taking the average is the clean and more accurate way to do this, I still prefer to do it in one go as that slightly lowers both model and coding complexity.</strong></p>
+<p><a href="http://mlwave.com/kaggle-ensembling-guide/" target="_blank" rel="external">http://mlwave.com/kaggle-ensembling-guide/</a><br>上文提到了自动选择多个模型并建立集成模型，并获得了良好的效果。缺限可能在于预测所花时间较长，模型较复杂。</p>
 
       
     </div>
@@ -387,16 +470,16 @@ Best possible score is 1.0 and it can be negative (be">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/03/07/kaggle/" rel="next" title="kaggle数据清洗">
-                <i class="fa fa-chevron-left"></i> kaggle数据清洗
+              <a href="/2017/03/06/2017-03-06/" rel="next" title="kaggle小试2017-03-06">
+                <i class="fa fa-chevron-left"></i> kaggle小试2017-03-06
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/03/10/2017-03-10-kaggle/" rel="prev" title="2017-03-10kaggle">
-                2017-03-10kaggle <i class="fa fa-chevron-right"></i>
+              <a href="/2017/03/08/2017-03-08kaggle/" rel="prev" title="2017-03-08 kaggle">
+                2017-03-08 kaggle <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -423,8 +506,8 @@ Best possible score is 1.0 and it can be negative (be">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/03/08/2017-03-08kaggle/"
-           data-title="2017-03-08 kaggle" data-url="https://geoblog.github.io/2017/03/08/2017-03-08kaggle/">
+      <div class="ds-thread" data-thread-key="2017/03/07/kaggle/"
+           data-title="kaggle数据清洗" data-url="https://geoblog.github.io/2017/03/07/kaggle/">
       </div>
     
   </div>
@@ -577,7 +660,7 @@ Best possible score is 1.0 and it can be negative (be">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#模型评分函数"><span class="nav-text">模型评分函数</span></a></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
         </section>
