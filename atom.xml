@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://geoblog.github.io/"/>
-  <updated>2017-07-11T00:54:54.460Z</updated>
+  <updated>2017-07-11T03:01:19.115Z</updated>
   <id>https://geoblog.github.io/</id>
   
   <author>
@@ -20,15 +20,14 @@
     <link href="https://geoblog.github.io/2017/07/10/20170710train/"/>
     <id>https://geoblog.github.io/2017/07/10/20170710train/</id>
     <published>2017-07-10T07:31:35.000Z</published>
-    <updated>2017-07-11T00:54:54.460Z</updated>
+    <updated>2017-07-11T03:01:19.115Z</updated>
     
-    <content type="html"><![CDATA[<p>#视频学习<br>刚才QQ推送，介绍了中国铁路的进步，大家可以学习一下哦。</p>
-<embed src="http://player.youku.com/player.php/Type/Folder/Fid//Ob//sid/XMjg1ODcyMzUxMg==/v.swf" quality="high" width="480" height="400" align="middle" allowscriptaccess="always" allowfullscreen="true" mode="transparent" type="application/x-shockwave-flash">]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="视频学习"><a href="#视频学习" class="headerlink" title="视频学习"></a>视频学习</h1><p>刚才QQ推送，介绍了中国铁路的进步，大家可以学习一下哦。<br>iframe标签用不了，可能是对HTTPS的支持不够。<br>需要使用两个播放器插件看看能否解决<br>两款插件基于 DIYgod 编写的 html5 播放器 APlayer 和 DPlayer</p>
+]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;#视频学习&lt;br&gt;刚才QQ推送，介绍了中国铁路的进步，大家可以学习一下哦。&lt;/p&gt;
-&lt;embed src=&quot;http://player.youku.com/player.php/Type/Folder/Fid//Ob//sid/XMjg1ODcyMzUxMg==/v.swf
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h1 id=&quot;视频学习&quot;&gt;&lt;a href=&quot;#视频学习&quot; class=&quot;headerlink&quot; title=&quot;视频学习&quot;&gt;&lt;/a&gt;视频学习&lt;/h1&gt;&lt;p&gt;刚才QQ推送，介绍了中国
     
     </summary>
     
@@ -44,7 +43,7 @@
     <published>2017-07-10T07:06:02.000Z</published>
     <updated>2017-07-10T07:10:30.161Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="订个目标吧"><a href="#订个目标吧" class="headerlink" title="订个目标吧"></a>订个目标吧</h1><p>好久没写BLOG了，都快忘记了怎么用HEXO了。<br>今天整理了一下思路，给下半年做个计划。<br>MARKDOWN也快忘记怎么用了。。。还好有MarkdownPad…</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="订个目标吧"><a href="#订个目标吧" class="headerlink" title="订个目标吧"></a>订个目标吧</h1><p>好久没写BLOG了，都快忘记了怎么用HEXO了。<br>今天整理了一下思路，给下半年做个计划。<br>MARKDOWN也快忘记怎么用了。。。还好有MarkdownPad…</p>
 <ol>
 <li>把BLOG写起来，记录一些知识碎片。</li>
 <li>添加一些地理知识类的分享。</li>
@@ -54,7 +53,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;订个目标吧&quot;&gt;&lt;a href=&quot;#订个目标吧&quot; class=&quot;headerlink&quot; title=&quot;订个目标吧&quot;&gt;&lt;/a&gt;订个目标吧&lt;/h1&gt;&lt;p&gt;好久没写BLOG了，都快忘记了怎么用HEXO了。&lt;br&gt;今天整理了一下思路，给下半年做个计划。&lt;br&gt;MARKDOW
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h1 id=&quot;订个目标吧&quot;&gt;&lt;a href=&quot;#订个目标吧&quot; class=&quot;headerlink&quot; title=&quot;订个目标吧&quot;&gt;&lt;/a&gt;订个目标吧&lt;/h1&gt;&lt;p&gt;好久没写BLOG
     
     </summary>
     
@@ -89,12 +88,12 @@
     <published>2017-04-05T08:33:09.000Z</published>
     <updated>2017-07-11T00:36:49.161Z</updated>
     
-    <content type="html"><![CDATA[<p>机器学习算法比较多，在同一个问题上，不同算法的性能有差异，Kaggle上的高手们推荐采用ensemble方法提高模型效果，试着看了一些他们推荐的方法，采用blending方法，确实效果有所提高。<br>An ensemble method combines the predictions of different<br>algorithms (the ensemble) to obtain a final prediction<br>Each single algorithm models the data in<br>a different way. Therefore a suitable combination of these<br>predictions can significantly improve the prediction performance.<br>Jahrer M, Töscher A, Legenstein R. Combining predictions for accurate recommender systems[C]// ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2010:693-702.</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>机器学习算法比较多，在同一个问题上，不同算法的性能有差异，Kaggle上的高手们推荐采用ensemble方法提高模型效果，试着看了一些他们推荐的方法，采用blending方法，确实效果有所提高。<br>An ensemble method combines the predictions of different<br>algorithms (the ensemble) to obtain a final prediction<br>Each single algorithm models the data in<br>a different way. Therefore a suitable combination of these<br>predictions can significantly improve the prediction performance.<br>Jahrer M, Töscher A, Legenstein R. Combining predictions for accurate recommender systems[C]// ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2010:693-702.</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;机器学习算法比较多，在同一个问题上，不同算法的性能有差异，Kaggle上的高手们推荐采用ensemble方法提高模型效果，试着看了一些他们推荐的方法，采用blending方法，确实效果有所提高。&lt;br&gt;An ensemble method combines the pred
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;机器学习算法比较多，在同一个问题上，不同算法的性能有差异，Kaggle上的高手们推荐采用ensemble方法提高模型效果，试着看了一些他们推荐的方法，采用blending方法
     
     </summary>
     
@@ -110,12 +109,12 @@
     <published>2017-03-21T02:35:02.000Z</published>
     <updated>2017-07-11T00:36:22.217Z</updated>
     
-    <content type="html"><![CDATA[<p>用notebook在线编码还是比较方便的。用各种回归方法进行测试拟合，训练集的性能还可以，但是用样本外的数据测试时R2及MSE\MAE所表现的性能较差。<br>用365天、180天、90天数据进行训练，发现样本越多，测试集上的效果却越差。<br>尝试feature engineering<br>尝试stacking</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>用notebook在线编码还是比较方便的。用各种回归方法进行测试拟合，训练集的性能还可以，但是用样本外的数据测试时R2及MSE\MAE所表现的性能较差。<br>用365天、180天、90天数据进行训练，发现样本越多，测试集上的效果却越差。<br>尝试feature engineering<br>尝试stacking</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;用notebook在线编码还是比较方便的。用各种回归方法进行测试拟合，训练集的性能还可以，但是用样本外的数据测试时R2及MSE\MAE所表现的性能较差。&lt;br&gt;用365天、180天、90天数据进行训练，发现样本越多，测试集上的效果却越差。&lt;br&gt;尝试feature engi
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;用notebook在线编码还是比较方便的。用各种回归方法进行测试拟合，训练集的性能还可以，但是用样本外的数据测试时R2及MSE\MAE所表现的性能较差。&lt;br&gt;用365天、1
     
     </summary>
     
@@ -209,7 +208,7 @@ array([  0.,   1.,   2., -Inf])
     <published>2017-03-07T03:20:19.000Z</published>
     <updated>2017-07-10T07:24:40.105Z</updated>
     
-    <content type="html"><![CDATA[<p>学习机器学习回归之数据清洗。<br>把非正态分布的数据变为正态分布可用LOG函数。<br>把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>学习机器学习回归之数据清洗。<br>把非正态分布的数据变为正态分布可用LOG函数。<br>把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables</p>
 <pre><code>#convert categorical variable into dummy
 df_train = pd.get_dummies(df_train)
 </code></pre><p>References<br>Hair et al., 2013, Multivariate Data Analysis, 7th Edition (<a href="https://www.amazon.com/Multivariate-Data-Analysis-Joseph-Hair/dp/0138132631" target="_blank" rel="external">https://www.amazon.com/Multivariate-Data-Analysis-Joseph-Hair/dp/0138132631</a>)<br>数据处理：特征筛选，把因子中两两相关的只取其一，MISS DATA处理（删除或填补），LOG正态化，分类数据dummy处理,PCA降维(np.cumsum(pca.explained_variance<em>ratio</em>)=1时的主成分数就是目标参数)</p>
@@ -299,8 +298,7 @@ np.cumsum(pca.explained_variance_ratio_)
     
     <summary type="html">
     
-      &lt;p&gt;学习机器学习回归之数据清洗。&lt;br&gt;把非正态分布的数据变为正态分布可用LOG函数。&lt;br&gt;把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关分析，最后处理为dummy variables&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#convert ca
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;学习机器学习回归之数据清洗。&lt;br&gt;把非正态分布的数据变为正态分布可用LOG函数。&lt;br&gt;把零与非零数据区分开来可新建一个二值变量[0，1]，选择非零的部分与预测目标进行相关
     
     </summary>
     
