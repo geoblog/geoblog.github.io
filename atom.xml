@@ -4,9 +4,9 @@
   <subtitle>世界那么大，等你去探索</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://geoblog.github.io/"/>
+  <link href="http://geostar.cc/"/>
   <updated>2017-07-11T05:54:10.917Z</updated>
-  <id>https://geoblog.github.io/</id>
+  <id>http://geostar.cc/</id>
   
   <author>
     <name>曹老师</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>中国高铁“四纵四横”到“八纵八横”</title>
-    <link href="https://geoblog.github.io/2017/07/10/20170710train/"/>
-    <id>https://geoblog.github.io/2017/07/10/20170710train/</id>
+    <link href="http://geostar.cc/2017/07/10/20170710train/"/>
+    <id>http://geostar.cc/2017/07/10/20170710train/</id>
     <published>2017-07-10T07:31:35.000Z</published>
     <updated>2017-07-11T05:54:10.917Z</updated>
     
@@ -35,14 +35,14 @@
     </summary>
     
     
-      <category term="地理" scheme="https://geoblog.github.io/tags/%E5%9C%B0%E7%90%86/"/>
+      <category term="地理" scheme="http://geostar.cc/tags/%E5%9C%B0%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>20170710</title>
-    <link href="https://geoblog.github.io/2017/07/10/2017semi/"/>
-    <id>https://geoblog.github.io/2017/07/10/2017semi/</id>
+    <link href="http://geostar.cc/2017/07/10/2017semi/"/>
+    <id>http://geostar.cc/2017/07/10/2017semi/</id>
     <published>2017-07-10T07:06:02.000Z</published>
     <updated>2017-07-10T07:10:30.161Z</updated>
     
@@ -65,8 +65,8 @@
   
   <entry>
     <title>2017-04-15tensorflow</title>
-    <link href="https://geoblog.github.io/2017/04/15/2017-04-15tensorflow/"/>
-    <id>https://geoblog.github.io/2017/04/15/2017-04-15tensorflow/</id>
+    <link href="http://geostar.cc/2017/04/15/2017-04-15tensorflow/"/>
+    <id>http://geostar.cc/2017/04/15/2017-04-15tensorflow/</id>
     <published>2017-04-15T04:50:45.000Z</published>
     <updated>2017-04-18T08:52:24.575Z</updated>
     
@@ -86,8 +86,8 @@
   
   <entry>
     <title>2017-04-05ML_blending</title>
-    <link href="https://geoblog.github.io/2017/04/05/2017-04-05ML-blending/"/>
-    <id>https://geoblog.github.io/2017/04/05/2017-04-05ML-blending/</id>
+    <link href="http://geostar.cc/2017/04/05/2017-04-05ML-blending/"/>
+    <id>http://geostar.cc/2017/04/05/2017-04-05ML-blending/</id>
     <published>2017-04-05T08:33:09.000Z</published>
     <updated>2017-07-11T00:36:49.161Z</updated>
     
@@ -101,14 +101,14 @@
     </summary>
     
     
-      <category term="ML" scheme="https://geoblog.github.io/tags/ML/"/>
+      <category term="ML" scheme="http://geostar.cc/tags/ML/"/>
     
   </entry>
   
   <entry>
     <title>2017-03-21kaggle</title>
-    <link href="https://geoblog.github.io/2017/03/21/2017-03-21kaggle/"/>
-    <id>https://geoblog.github.io/2017/03/21/2017-03-21kaggle/</id>
+    <link href="http://geostar.cc/2017/03/21/2017-03-21kaggle/"/>
+    <id>http://geostar.cc/2017/03/21/2017-03-21kaggle/</id>
     <published>2017-03-21T02:35:02.000Z</published>
     <updated>2017-07-11T00:36:22.217Z</updated>
     
@@ -122,14 +122,14 @@
     </summary>
     
     
-      <category term="机器学习" scheme="https://geoblog.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="http://geostar.cc/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>2017-03-13notebook</title>
-    <link href="https://geoblog.github.io/2017/03/13/2017-03-13notebook/"/>
-    <id>https://geoblog.github.io/2017/03/13/2017-03-13notebook/</id>
+    <link href="http://geostar.cc/2017/03/13/2017-03-13notebook/"/>
+    <id>http://geostar.cc/2017/03/13/2017-03-13notebook/</id>
     <published>2017-03-13T01:32:32.000Z</published>
     <updated>2017-03-14T08:57:39.381Z</updated>
     
@@ -146,14 +146,14 @@
     </summary>
     
     
-      <category term="机器学习" scheme="https://geoblog.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="http://geostar.cc/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>2017-03-10kaggle</title>
-    <link href="https://geoblog.github.io/2017/03/10/2017-03-10-kaggle/"/>
-    <id>https://geoblog.github.io/2017/03/10/2017-03-10-kaggle/</id>
+    <link href="http://geostar.cc/2017/03/10/2017-03-10-kaggle/"/>
+    <id>http://geostar.cc/2017/03/10/2017-03-10-kaggle/</id>
     <published>2017-03-10T01:42:44.000Z</published>
     <updated>2017-03-10T09:13:40.888Z</updated>
     
@@ -173,14 +173,14 @@ array([  0.,   1.,   2., -Inf])
     </summary>
     
     
-      <category term="机器学习" scheme="https://geoblog.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="http://geostar.cc/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>2017-03-08 kaggle</title>
-    <link href="https://geoblog.github.io/2017/03/08/2017-03-08kaggle/"/>
-    <id>https://geoblog.github.io/2017/03/08/2017-03-08kaggle/</id>
+    <link href="http://geostar.cc/2017/03/08/2017-03-08kaggle/"/>
+    <id>http://geostar.cc/2017/03/08/2017-03-08kaggle/</id>
     <published>2017-03-08T06:21:06.000Z</published>
     <updated>2017-03-10T01:40:31.494Z</updated>
     
@@ -199,14 +199,14 @@ array([  0.,   1.,   2., -Inf])
     </summary>
     
     
-      <category term="机器学习" scheme="https://geoblog.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="http://geostar.cc/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>kaggle数据清洗</title>
-    <link href="https://geoblog.github.io/2017/03/07/kaggle/"/>
-    <id>https://geoblog.github.io/2017/03/07/kaggle/</id>
+    <link href="http://geostar.cc/2017/03/07/kaggle/"/>
+    <id>http://geostar.cc/2017/03/07/kaggle/</id>
     <published>2017-03-07T03:20:19.000Z</published>
     <updated>2017-07-10T07:24:40.105Z</updated>
     
@@ -305,14 +305,14 @@ np.cumsum(pca.explained_variance_ratio_)
     </summary>
     
     
-      <category term="机器学习" scheme="https://geoblog.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+      <category term="机器学习" scheme="http://geostar.cc/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>kaggle小试2017-03-06</title>
-    <link href="https://geoblog.github.io/2017/03/06/2017-03-06/"/>
-    <id>https://geoblog.github.io/2017/03/06/2017-03-06/</id>
+    <link href="http://geostar.cc/2017/03/06/2017-03-06/"/>
+    <id>http://geostar.cc/2017/03/06/2017-03-06/</id>
     <published>2017-03-06T04:55:14.482Z</published>
     <updated>2017-03-06T08:48:33.163Z</updated>
     
@@ -353,8 +353,8 @@ cmake .. -G&quot;Visual Studio 12 2013 Win64&quot;
   
   <entry>
     <title>现在开始记录</title>
-    <link href="https://geoblog.github.io/2017/03/05/2017-03-05/"/>
-    <id>https://geoblog.github.io/2017/03/05/2017-03-05/</id>
+    <link href="http://geostar.cc/2017/03/05/2017-03-05/"/>
+    <id>http://geostar.cc/2017/03/05/2017-03-05/</id>
     <published>2017-03-05T02:20:30.327Z</published>
     <updated>2017-03-05T04:17:20.355Z</updated>
     
@@ -406,8 +406,8 @@ pause
   
   <entry>
     <title>Hello World</title>
-    <link href="https://geoblog.github.io/2016/09/07/hello-world/"/>
-    <id>https://geoblog.github.io/2016/09/07/hello-world/</id>
+    <link href="http://geostar.cc/2016/09/07/hello-world/"/>
+    <id>http://geostar.cc/2016/09/07/hello-world/</id>
     <published>2016-09-07T09:22:24.647Z</published>
     <updated>2016-09-07T01:51:03.225Z</updated>
     
@@ -433,8 +433,8 @@ pause
   
   <entry>
     <title>利用github and Hexo建立个人blog</title>
-    <link href="https://geoblog.github.io/2016/08/27/my-new-post/"/>
-    <id>https://geoblog.github.io/2016/08/27/my-new-post/</id>
+    <link href="http://geostar.cc/2016/08/27/my-new-post/"/>
+    <id>http://geostar.cc/2016/08/27/my-new-post/</id>
     <published>2016-08-27T08:23:23.000Z</published>
     <updated>2016-09-07T02:02:27.838Z</updated>
     
@@ -453,7 +453,7 @@ pause
 </li>
 </ul>
 <p>这时端口4000被打开了，我们能过浏览器打开地址， <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 或者 <a href="http://0.0.0.0:4000" target="_blank" rel="external">http://0.0.0.0:4000</a> 。<br>在Hexo的 _config.yml 中修改deploy </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"># Deployment</div><div class="line">## Docs: http://hexo.io/docs/deployment.html</div><div class="line">deploy:</div><div class="line">type: git</div><div class="line">repo: https://github.com/dwqs/username.github.io.git</div><div class="line">branch: master</div><div class="line">然后还要安装 hexo-deployer-git ：</div><div class="line"></div><div class="line">npm install hexo-deployer-git -S</div><div class="line">最后利用hexo指令发布到github：</div><div class="line"></div><div class="line">hexo d</div><div class="line">//same as</div><div class="line">hexo deploy</div><div class="line"></div><div class="line">Hexo常用命令：</div><div class="line">使用git shell ，cd Hexo项目文件夹</div><div class="line">hexo new &quot;article title&quot;</div><div class="line">hexo s == hexo server</div><div class="line">hexo n == hexo new</div><div class="line">hexo clean</div><div class="line">hexo g == hexo generate</div><div class="line"></div><div class="line">hexo d == hexo deploy</div></pre></td></tr></table></figure>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"># Deployment</div><div class="line">## Docs: http:<span class="comment">//hexo.io/docs/deployment.html</span></div><div class="line">deploy:</div><div class="line"><span class="keyword">type</span>: git</div><div class="line">repo: https:<span class="comment">//github.com/dwqs/username.github.io.git</span></div><div class="line">branch: master</div><div class="line">然后还要安装 hexo-deployer-git ：</div><div class="line"></div><div class="line">npm install hexo-deployer-git -S</div><div class="line">最后利用hexo指令发布到github：</div><div class="line"></div><div class="line">hexo d</div><div class="line"><span class="comment">//same as</span></div><div class="line">hexo deploy</div><div class="line"></div><div class="line">Hexo常用命令：</div><div class="line">使用git shell ，cd Hexo项目文件夹</div><div class="line">hexo <span class="keyword">new</span> <span class="string">"article title"</span></div><div class="line">hexo s == hexo server</div><div class="line">hexo n == hexo <span class="keyword">new</span></div><div class="line">hexo clean</div><div class="line">hexo g == hexo <span class="keyword">generate</span></div><div class="line"></div><div class="line">hexo d == hexo deploy</div></pre></td></tr></table></figure>
 <ul>
 <li>使用hexo n “filename”建立新blog，用Haroopad编辑mark dwon模式的md文件，保存后刷新可看到最新的blog<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="http://music.163.com/outchain/player?type=0&id=459115793&auto=0&height=430"></iframe></li>
 </ul>
@@ -468,7 +468,7 @@ pause
     </summary>
     
     
-      <category term="hexo" scheme="https://geoblog.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://geostar.cc/tags/hexo/"/>
     
   </entry>
   
