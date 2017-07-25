@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geostar.cc/"/>
-  <updated>2017-07-12T00:50:56.291Z</updated>
+  <updated>2017-07-25T04:52:42.456Z</updated>
   <id>http://geostar.cc/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;重装系统一定要注意保存数据&#39;</title>
+    <link href="http://geostar.cc/2017/07/25/2017-07-25/"/>
+    <id>http://geostar.cc/2017/07/25/2017-07-25/</id>
+    <published>2017-07-25T04:47:15.000Z</published>
+    <updated>2017-07-25T04:52:42.456Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>昨天重装了系统，有较多数据丢失了，可惜。很多软件也得重装……</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;昨天重装了系统，有较多数据丢失了，可惜。很多软件也得重装……&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>地理百科知识竞赛（一）</title>
