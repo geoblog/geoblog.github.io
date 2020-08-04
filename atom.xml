@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://geostar.cc/"/>
-  <updated>2017-10-06T00:40:30.043Z</updated>
+  <updated>2020-08-04T07:42:57.637Z</updated>
   <id>http://geostar.cc/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20200804</title>
+    <link href="http://geostar.cc/2020/08/04/20200804/"/>
+    <id>http://geostar.cc/2020/08/04/20200804/</id>
+    <published>2020-08-04T07:42:26.000Z</published>
+    <updated>2020-08-04T07:42:57.637Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>this is the test for the new post.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;this is the test for the new post.&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>中国的地形小结</title>
@@ -41,7 +61,7 @@
     <link href="http://geostar.cc/2017/10/05/xzqh/"/>
     <id>http://geostar.cc/2017/10/05/xzqh/</id>
     <published>2017-10-05T08:52:37.000Z</published>
-    <updated>2017-10-05T08:58:11.298Z</updated>
+    <updated>2017-10-05T08:58:11.299Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>小测试：中国的行政区划试题<br><img src="https://i.imgur.com/1DHWUQi.png" alt="中国的行政区划试题1"><img src="https://i.imgur.com/SIscAFp.png" alt="中国的行政区划试题2"></p>
 ]]></content>
@@ -60,7 +80,7 @@
     <link href="http://geostar.cc/2017/10/05/view/"/>
     <id>http://geostar.cc/2017/10/05/view/</id>
     <published>2017-10-05T08:32:11.000Z</published>
-    <updated>2017-10-05T08:39:00.565Z</updated>
+    <updated>2017-10-05T08:39:00.566Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>  祖国的名山大川让人赞叹，我是中国人我自豪！下面这些诗句很经典，学习学习~</p>
 <ul>
@@ -142,7 +162,7 @@
     <link href="http://geostar.cc/2017/09/28/learning-method/"/>
     <id>http://geostar.cc/2017/09/28/learning-method/</id>
     <published>2017-09-28T07:49:44.000Z</published>
-    <updated>2017-09-28T08:33:12.536Z</updated>
+    <updated>2017-09-28T08:33:12.537Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>孩子的学习成绩，永远都是家长们最关心的问题。作为父母我们都希望自己的孩子能够学习成绩优秀，考取一个好的高中和大学。初中作为孩子学习生涯最重要的过渡时期，想要在中考的时候取得一个理想的成绩，在这三年中，孩子就需要不断的积累和沉淀，找到合适的学习方法和养成良好的学习习惯，这样才能取得成功。</p>
 <p>今天给大家分享一位中考状元的学习秘籍，希望能帮助到有需要的家长。</p>
@@ -252,7 +272,7 @@
     <link href="http://geostar.cc/2017/07/25/2017-07-25/"/>
     <id>http://geostar.cc/2017/07/25/2017-07-25/</id>
     <published>2017-07-25T04:47:15.000Z</published>
-    <updated>2017-07-25T04:52:42.456Z</updated>
+    <updated>2017-07-25T04:52:42.457Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>昨天重装了系统，有较多数据丢失了，可惜。很多软件也得重装……</p>
 ]]></content>
@@ -402,7 +422,7 @@
     <link href="http://geostar.cc/2017/04/15/2017-04-15tensorflow/"/>
     <id>http://geostar.cc/2017/04/15/2017-04-15tensorflow/</id>
     <published>2017-04-15T04:50:45.000Z</published>
-    <updated>2017-04-18T08:52:24.575Z</updated>
+    <updated>2017-04-18T08:52:24.576Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>准备学习GPU版TENSORFLOW及TENSORLAYER的神经网络技术。<br>计划安装linux、WIN10双系统，开源就是力量哈哈。<br>pycharm及anaconda是必备选项。<br>做业务还是用WIN系统比较方便，LINUX做开发用吧。<br>编辑PyCharm安装目录下PyCharm 4.5.3\bin下的pycharm.exe.vmoptions 修改CACHE SIZE。</p>
 <p>F——test<br>from sklearn.feature_selection import f_regression<br>return f score,p</p>
@@ -444,7 +464,7 @@
     <link href="http://geostar.cc/2017/03/21/2017-03-21kaggle/"/>
     <id>http://geostar.cc/2017/03/21/2017-03-21kaggle/</id>
     <published>2017-03-21T02:35:02.000Z</published>
-    <updated>2017-07-11T00:36:22.217Z</updated>
+    <updated>2017-07-11T00:36:22.218Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>用notebook在线编码还是比较方便的。用各种回归方法进行测试拟合，训练集的性能还可以，但是用样本外的数据测试时R2及MSE\MAE所表现的性能较差。<br>用365天、180天、90天数据进行训练，发现样本越多，测试集上的效果却越差。<br>尝试feature engineering<br>尝试stacking</p>
 ]]></content>
@@ -516,7 +536,7 @@ array([  0.,   1.,   2., -Inf])
     <link href="http://geostar.cc/2017/03/08/2017-03-08kaggle/"/>
     <id>http://geostar.cc/2017/03/08/2017-03-08kaggle/</id>
     <published>2017-03-08T06:21:06.000Z</published>
-    <updated>2017-03-10T01:40:31.494Z</updated>
+    <updated>2017-03-10T01:40:31.495Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="模型评分函数"><a href="#模型评分函数" class="headerlink" title="模型评分函数"></a>模型评分函数</h1><p>sklearn.metrics.r2_score(y_true, y_pred, sample_weight=None, multioutput=None)</p>
 <p>R^2 (coefficient of determination) regression score function.</p>
@@ -647,8 +667,8 @@ np.cumsum(pca.explained_variance_ratio_)
     <title>kaggle小试2017-03-06</title>
     <link href="http://geostar.cc/2017/03/06/2017-03-06/"/>
     <id>http://geostar.cc/2017/03/06/2017-03-06/</id>
-    <published>2017-03-06T04:55:14.482Z</published>
-    <updated>2017-03-06T08:48:33.163Z</updated>
+    <published>2017-03-06T04:55:14.483Z</published>
+    <updated>2017-03-06T08:48:33.164Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="kaggle"><a href="#kaggle" class="headerlink" title="kaggle"></a>kaggle</h1><p>注册了kaggle账户，用的是yahoo.com的邮箱，用QQ邮箱注册时收到的验证链接打开后显示不了验证码。<br>看了TITANIC的示例数据及指导，下载安装WIN7 64位的</p>
 <h2 id="XGBOOST"><a href="#XGBOOST" class="headerlink" title="XGBOOST"></a>XGBOOST</h2><p>参考GITHUB上的安装指引。<br>This page gives instructions on how to build and install the xgboost package from scratch on various systems. It consists of two steps:</p>
@@ -732,33 +752,6 @@ pause
     <summary type="html">
     
       &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Qui
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://geostar.cc/2016/09/07/hello-world/"/>
-    <id>http://geostar.cc/2016/09/07/hello-world/</id>
-    <published>2016-09-07T09:22:24.647Z</published>
-    <updated>2016-09-07T01:51:03.225Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="450" src="http://music.163.com/outchain/player?type=0&id=459115793&auto=0&height=430"></iframe>]]></content>
-    
-    <summary type="html">
-    
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is 
     
     </summary>
     
